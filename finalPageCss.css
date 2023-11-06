@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.finalInfomation {
+  width: 50%;
+  height: 90vh;
+  border-radius: 2em;
+  border: none;
+  background-color: lightseagreen;
+  position: relative;
+  top: 3em;
+  left: 26%;
+}

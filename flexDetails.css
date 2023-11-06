@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#flexPage {
+  width: 50%;
+  height: 100vh;
+  border-radius: 2em;
+  border: none;
+  background-color: rgba(50, 205, 58, 0.685);
+  position: relative;
+  top: 3em;
+  left: 26%;
+}
+
+.inputGoods {
+  width: 24em;
+  height: 3em;
+  border: none;
+  border-radius: 2em;
+  position: relative;
+  top: 4em;
+  left: 5em;
+  text-align: center;
+}
+
+.enterGoods {
+  width: 8em;
+  height: 3em;
+  border: none;
+  border-radius: 2em;
+  position: relative;
+  top: 4em;
+  left: 12em;
+  text-align: center;
+}
+
+.inputPrice {
+  width: 24em;
+  height: 3em;
+  border: none;
+  border-radius: 2em;
+  position: relative;
+  top: 7em;
+  left: 5em;
+  text-align: center;
+}
+
+.enterPrice {
+  width: 8em;
+  height: 3em;
+  border: none;
+  border-radius: 2em;
+  position: relative;
+  top: 7em;
+  left: 12em;
+  text-align: center;
+}
+
+.goodsContainer {
+  width: 50%;
+  height: 50vh;
+  border-radius: 2em;
+  border: none;
+  background-color: white;
+  position: relative;
+  top: 8em;
+  left: 10%;
+}
+
+.priceContainer {
+  width: 20%;
+  height: 50vh;
+  border-radius: 2em;
+  border: none;
+  background-color: white;
+  position: relative;
+  top: -14.5em;
+  left: 70%;
+}
+
+.list {
+  text-align: center;
+}
+
+.continue {
+  width: 8em;
+  height: 3em;
+  border: none;
+  border-radius: 2em;
+  background-color: rgb(70, 70, 183);
+  color: blanchedalmond;
+  position: relative;
+  top: -16em;
+  right: -37em;
+}
+
+.continue:hover {
+  color: black !important;
+  background: rgb(55, 207, 31);
+}

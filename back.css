@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(img/shoppingCcart.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100vh;
+  background-attachment: fixed;
+}
+
+.darkBg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  z-index: 1;
+  background-color: black;
+}
+
+.welcomePage {
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  width: 100%;
+  font-size: 25px;
+  color: #fff !important;
+  z-index: 1;
+}
+
+/* .input {
+  width: 40%;
+  text-align: center;
+  height: 3em;
+  border-radius: 1em;
+  border: none;
+  margin: 15px 0 15px 0;
+} */
+
+.button {
+  width: 40%;
+  height: 2em;
+  border-radius: 1em;
+  border: none;
+  color: rgb(10, 11, 10);
+  background-color: blue;
+  font-size: 30px;
+}
+
+button:hover {
+  color: white;
+  background: blue;
+}
+
+.image {
+  width: 50px;
+  height: 35px;
+}
